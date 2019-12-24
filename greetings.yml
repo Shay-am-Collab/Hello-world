@@ -1,0 +1,11 @@
+- nazwa: konfiguracja zestawu .NET Core SDK
+  używa: akcji/setup-dotnet@v1.0.0
+  z:
+    # Wersja do użycia. Np. 2.2.104
+    wersja: # opcjonalnaname: Greetings
+
+on: [pull_request, issues]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-lates
